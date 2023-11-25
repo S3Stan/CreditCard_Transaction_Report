@@ -1,6 +1,6 @@
 ### Fraudulent credit card analysis
 
-_Sumary and introduction of the study_
+_Sumary and introduction of the study_  
 The problem of fraudulent credit card transaction taking place is a bigger problem than most people realise it to be. The problem is not only based on the amount of money being stolen in the transactions, but more importantly the increase in the frequency or volumne of these type of transactions taking place on a daily basis. The increase in volume of these type of transactions taking place means it is very important for credit card companies to be able to identify and develop methods to decrease the number of clients that are being charged for transactions that they did not incur.
 
 _What does this data represent?_  
