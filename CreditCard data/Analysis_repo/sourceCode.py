@@ -1,20 +1,12 @@
-# imports
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import pandas as pd
-#from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix
-import matplotlib.pyplot as plt
-import dask.dataframe as dd
+import Analysis_repo
+from Analysis_repo import notebook_import_library
 
 # datafile URL
 
 #df = dd.read_csv('your_dataset.csv')
-creditcardData_p1 = pd.read_csv("Analysis_repo/Datasets/creditCardData_p1of2.csv" , sep=",")
-creditcardData_p2 = pd.read_csv("Analysis_repo/Datasets/creditCardData_p2of2.csv" , sep=",")
-creditcardData_prediction = pd.read_csv("Analysis_repo/Datasets/creditCardData_prediction.csv", sep=",")
+creditcardData_p1 = notebook_import_library.pd.read_csv("Analysis_repo/Datasets/creditCardData_p1of2.csv" , sep=",")
+creditcardData_p2 = notebook_import_library.pd.read_csv("Analysis_repo/Datasets/creditCardData_p2of2.csv" , sep=",")
+creditcardData_prediction = notebook_import_library.pd.read_csv("Analysis_repo/Datasets/creditCardData_prediction.csv", sep=",")
 
 
 # exception to catch what happens when dataset is called 
